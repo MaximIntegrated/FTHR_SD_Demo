@@ -1,0 +1,9 @@
+{
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate": 9600,
+            "target.components_add": ["SD"]
+        }
+    },
+    "macros": ["SPI_CS=P0_7", "SPI_MOSI=P0_5", "SPI_MISO=P0_6", "SPI_SCK=P0_4"]
+}
